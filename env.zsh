@@ -3,4 +3,4 @@ eval "$(rbenv init -)"
 
 export PROJECTS="$HOME/Dev"
 
-export PATH="$PATH:/Applications"
+export PATH="$PATH:/Applications:$HOME/bin"
