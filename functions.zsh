@@ -5,5 +5,10 @@ export FPATH="$ZSH_CUSTOM/functions:$FPATH"
 autoload -U compinit
 compinit
 
-# Ignore completion files (which start with underscore)
-source $ZSH_CUSTOM/functions/**/[^_]*
+sources=($ZSH_CUSTOM/functions/**/[^_]*)
+
+foreach file (`echo $sources`)
+    if [[ -a $file ]]; then
+        source $file
+    fi
+end
