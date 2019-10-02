@@ -11,3 +11,4 @@ alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C
 alias gone="git log --oneline --decorate"
 alias gp='git push origin HEAD'
 alias gs='git status -sb'
+alias gda='gitdiffall'
