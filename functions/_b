@@ -1,2 +1,0 @@
-#compdef b
-_files -W $BSOLVERPROJECTS -/
