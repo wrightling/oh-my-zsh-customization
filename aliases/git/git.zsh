@@ -12,3 +12,4 @@ alias gone="git log --oneline --decorate"
 alias gp='git push origin HEAD'
 alias gs='git status -sb'
 alias gda='gitdiffall'
+alias gl='git pull --no-rebase'
