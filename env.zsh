@@ -1,3 +1,5 @@
+export PATH="$PATH:/usr/local/go/bin"
+
 if uname -r | grep -q -i -v 'Microsoft' ; then
   export PATH="$HOME/.rbenv/bin:$PATH"
   eval "$(rbenv init -)"
