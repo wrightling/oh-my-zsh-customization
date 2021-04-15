@@ -8,3 +8,6 @@ if uname -r | grep -q -i -v 'Microsoft' ; then
   export PATH="$PATH:/Applications:$HOME/bin"
 else
 fi
+
+# required for VIM to pick up cursor changes on windows-terminal
+echo -ne "\e[2 q"
