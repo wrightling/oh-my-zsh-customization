@@ -1,0 +1,3 @@
+runsub() {
+  for d in ./*/ ; do /bin/zsh -c "(cd "$d" && "$@")"; done
+}
