@@ -1,0 +1,1 @@
+s() { cd "$PROJECTS/norwex/rosi/services/$1"; }
