@@ -1,0 +1,2 @@
+#compdef sql
+_files -W $PROJECTS/norwex/scripts/PRS -/

@@ -1,0 +1,1 @@
+sql() { cd "$PROJECTS/norwex/scripts/PRS/$1"; }
